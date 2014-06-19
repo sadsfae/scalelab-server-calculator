@@ -20,7 +20,7 @@ def addserver(servers):
     serverunitcost = 5800
     cablecost = 50
     priceperport = 230
-    portcost = (servers * 2) * (2 * priceperport)
+    portcost = priceperport * 2
     return (serverunitcost + cablecost + portcost) * servers
 
 # take the results of server query and post them
