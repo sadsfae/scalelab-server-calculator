@@ -7,4 +7,5 @@ Setup to run inside OpenShift but can run just fine via wsgi.
 Requires ::
 
 flask
+
 htmlbuilder
