@@ -35,7 +35,8 @@ def addserverpost():
                 html.title('Scalelab Server Calculator 5000')
             ),
             html.body(
-                str(addserver(servers)) 
+                "%s Dell R620 node(s) with cabling, 2 x 10gbe ports (20GbE in/out) will cost $%s USD" \
+                        % (servers,addserver(servers))
                 )
             )
         ])
